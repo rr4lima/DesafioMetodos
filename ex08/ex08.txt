@@ -1,0 +1,20 @@
+public static double calcularMedia(double n1, double n2, double n3) {
+        int p1 = 3;
+        int p2 = 3;
+        int p3 = 4;
+
+        double somaPesos = p1 + p2 + p3;
+        double mP = (n1 * p1 + n2 * p2 + n3 * 3) / somaPesos;
+        return mP;
+    }
+
+    public static void main(String[] args) {
+
+        double n1 = 7.0;
+        double n2 = 7.5;
+        double n3 = 8.0;
+
+        double m = calcularMedia(n1, n2, n3);
+        System.out.println("A média ponderada das notas é: " + m);
+    }
+}

@@ -1,0 +1,12 @@
+    public static void main(String[] args) {
+        double n1 = 7;
+        double n2 = 5;
+        double n3 = 3;
+
+        double c1 = n1 + n2 + n3;
+        double c2 = c1 / 3;
+
+        System.out.println(c2);
+    }
+
+}

@@ -1,0 +1,8 @@
+    public static void main(String[] args) {
+        double ce = 7;
+        double c = (ce * 1.8) + 32;
+
+        System.out.println(c);
+    }
+
+}

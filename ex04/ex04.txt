@@ -1,0 +1,14 @@
+public static void main(String[] args) {
+        String n1 = "Lucas";
+        String n2 = "Vanessa";
+
+        boolean i = n1.equals(n2);
+
+        if (i == true) {
+            System.out.println("As strings são iguais.");
+        } else {
+            System.out.println("As strings não são iguais.");
+        }
+    }
+
+}
